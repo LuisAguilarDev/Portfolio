@@ -1,38 +1,285 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Roboto&family=Source+Code+Pro&display=swap");
+
+body {
+  background-color: rgb(24, 24, 27);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Logo_L {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  border-bottom: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-color: rgb(86, 124, 247);
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Logo_Container:hover > .Logo_L {
+  border-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.Logo_A {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: white;
+}
+.Content_NameTyped {
+  margin: 0;
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  width: max-content;
+}
+.Content_NameTyped::after,
+.Content_NameTyped::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.Content_NameTyped::before {
+  background: rgb(24, 24, 27);
+  animation: typewriter 4s steps(21) 1s forwards;
+}
+.Content_NameTyped::after {
+  width: 0.125em;
+  background: white;
+  animation: typewriter 4s steps(21) 1s forwards, blink 750ms steps(21) infinite;
+}
+.SubText {
+  margin-top: 16px;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease 5s forwards;
+}
+@keyframes typewriter {
   to {
-    transform: rotate(360deg);
+    left: 100%;
   }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.NavBar_Container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(34, 34, 46);
+}
+
+.NavBar_Split {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.NavBar_letters {
+  display: flex;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  gap: 12px;
+}
+.Logo_Container:hover > div {
+  color: rgb(86, 124, 247);
+}
+.NavBar_letters > span:hover {
+  color: rgb(86, 124, 247);
+}
+
+.Logo_Container {
+  display: flex;
+}
+.Project {
+  margin-top: 40px;
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Project_img {
+  width: 500px;
+}
+
+.Content_Title {
+  padding-bottom: 16px;
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Content_text {
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  max-width: 60ch;
+}
+
+.Project_Container {
+  width: 1280px;
+  margin-bottom: 56px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Project_Title {
+  color: white;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.profilepic {
+  width: 260px;
+  border-radius: 50%;
+}
+.Content_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Tech_icons {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 1280px;
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.Project_img:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}
+.ICON {
+  display: flex;
+  color: white;
+  width: 80px;
+  height: 80px;
+}
+.ICON2 {
+  display: flex;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  padding: 8px;
+}
+.ICON2TEXT {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.Project_Card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Project_cardtext {
+  color: white;
+}
+p {
+  max-width: 50ch;
+  font-size: 14px;
+}
+.Tech_text {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+.Content_Container {
+  display: flex;
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70vh;
+  gap: 20px;
+  padding-bottom: 20vh;
+  justify-content: space-between;
+}
+
+.ICON_CONTAINER {
+  display: flex;
+  justify-content: center;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.buttonCV {
+  display: flex;
+  background-color: rgb(86, 124, 247);
+  color: white;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.buttonCV:hover {
+  background-color: white;
+  color: rgb(86, 124, 247);
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button_container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+}
+a:hover > .ICON2 {
+  color: rgb(86, 124, 247);
+}
+a:hover > .ICON2TEXT {
+  color: rgb(86, 124, 247);
+}
+
+.DISPLAY_FLEX {
+  display: flex;
+  margin-top: 56px;
+  gap: 32px;
+  justify-content: space-between;
 }
