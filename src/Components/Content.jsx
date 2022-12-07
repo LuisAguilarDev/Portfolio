@@ -12,10 +12,10 @@ const Content = () => {
             <div className="Content_text">
               <p className="Content_text">
                 Soy un apasionado por la tecnología y el desarrollo de
-                aplicaciones web. He aprendido por mi cuenta y en colaboración
-                con la comunidad sobre los lenguajes y frameworks más populares,
-                especialmente JavaScript y React. He tenido la oportunidad de
-                desarrollar dos aplicaciones web exitosas.
+                aplicaciones web. He aprendido de manera autodidacta y en
+                colaboración con la comunidad sobre los lenguajes y frameworks
+                más populares, especialmente JavaScript y React. He tenido la
+                oportunidad de desarrollar dos aplicaciones web exitosas.
               </p>
               <p className="Content_text">
                 Me encanta trabajar en equipo y buscar soluciones creativas a
