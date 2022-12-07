@@ -149,7 +149,6 @@ body {
 
 .Project_Title {
   color: white;
-  padding-top: 40px;
   padding-bottom: 40px;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
@@ -166,7 +165,7 @@ body {
   justify-content: center;
 }
 .Tech_icons {
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 80px;
   width: 1280px;
   display: grid;
@@ -222,9 +221,9 @@ p {
   width: 1280px;
   margin-right: auto;
   margin-left: auto;
-  height: 70vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
   gap: 20px;
-  padding-bottom: 40px;
   justify-content: space-between;
 }
 
@@ -281,11 +280,7 @@ a:hover > .ICON2TEXT {
 
 .DISPLAY_FLEX {
   display: flex;
-  margin-top: 56px;
   gap: 32px;
   justify-content: space-between;
-}
-
-#tech_skill {
   padding-top: 40px;
 }
