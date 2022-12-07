@@ -18,16 +18,17 @@ const Project = () => {
           <div className="Project_cardtext">
             <p>Eagle Clothes</p>
             <p>
-              Proyecto que desarrolle aplicando metodología ágil SCRUM. Es una
-              aplicación web que permite al usuario comprar ropa. cuenta con
-              búsquedas y filtros, panel de usuario, acceso mediante login
-              creado por mi utilizando MongoDB y Bcrypt.
+              Desarrollé un proyecto siguiendo la metodología ágil SCRUM. Se
+              trata de una aplicación web de compra de ropa que permite al
+              usuario buscar y filtrar prendas, así como acceder a su panel de
+              usuario mediante un login creado por mí utilizando MongoDB y
+              Bcrypt.
             </p>
             <p>
-              También utilice React, useReducer para el manejo de estados
-              globales, Material UI, MongoDB, Express, Typescript. ·Creé las
-              rutas en el backend con Express y utilizando Mongoose para filtrar
-              los datos que recibirá el frontend.
+              Utilicé React, useReducer para el manejo de estados globales,
+              Material UI y SASS para el estilo, MongoDB, Express y Typescript.
+              También creé las rutas en el backend con Express y utilicé
+              Mongoose para filtrar los datos que recibe el frontend.
             </p>
           </div>
         </div>
@@ -42,15 +43,17 @@ const Project = () => {
           <div className="Project_cardtext">
             <p>Dog Breeds</p>
             <p>
-              Proyecto que desarrolle aplicando metodología ágil SCRUM. Es una
-              aplicación web que permite al usuario comprar ropa. cuenta con
-              búsquedas y filtros, panel de usuario, acceso mediante login
-              creado por mi utilizando MongoDB y Bcrypt.
+              Fue mi primer proyecto con JavaScript, se trataba de una
+              aplicación web que permitía a los usuarios buscar razas de perros
+              por su nombre y filtrar por temperamento.
             </p>
             <p>
-              También utilice React, Redux, Material UI, MongoDB, Express,
-              Typescript. ·Creé las rutas en el backend con Express y utilizando
-              Mongoose para filtrar los datos que recibirá el frontend.
+              Utilicé Redux para el manejo de estados globales y CSS puro para
+              el estilo.
+            </p>
+            <p>
+              En el backend, utilicé Express para crear las rutas y PostgreSQL y
+              Sequelize para filtrar los datos que se enviarían al frontend.
             </p>
           </div>
         </div>

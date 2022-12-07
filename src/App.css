@@ -80,8 +80,8 @@ body {
 }
 
 .NavBar_Container {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -101,7 +101,7 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
-  gap: 12px;
+  gap: 16px;
 }
 .Logo_Container:hover > div {
   color: rgb(86, 124, 247);
@@ -142,13 +142,15 @@ body {
 
 .Project_Container {
   width: 1280px;
-  margin-bottom: 56px;
+  margin-bottom: 80px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .Project_Title {
   color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -164,8 +166,8 @@ body {
   justify-content: center;
 }
 .Tech_icons {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   width: 1280px;
   display: grid;
   margin-right: auto;
@@ -222,7 +224,7 @@ p {
   margin-left: auto;
   height: 70vh;
   gap: 20px;
-  padding-bottom: 20vh;
+  padding-bottom: 40px;
   justify-content: space-between;
 }
 
@@ -260,7 +262,7 @@ p {
 }
 
 .button_container {
-  margin-top: 16px;
+  margin-top: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,4 +284,8 @@ a:hover > .ICON2TEXT {
   margin-top: 56px;
   gap: 32px;
   justify-content: space-between;
+}
+
+#tech_skill {
+  padding-top: 40px;
 }

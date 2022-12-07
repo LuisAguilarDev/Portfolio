@@ -10,11 +10,19 @@ const Content = () => {
           <div className="SubText">
             <div className="Content_Title">Full Stack Developer</div>
             <div className="Content_text">
-              Tengo experiencia trabajando con NodeJS, React, Redux, SQL entre
-              otras tecnologías del sector, desarrolle un E-commerce para venta
-              de ropa, el frontend con base en React y Typescrip, su backend con
-              Node, Typescript y MongoDB, con pasarela de pago (Mercado pago),
-              también tengo más de 6 años de experiencia en el área Financiera.
+              <p className="Content_text">
+                Soy un apasionado por la tecnología y el desarrollo de
+                aplicaciones web. He aprendido por mi cuenta y en colaboración
+                con la comunidad sobre los lenguajes y frameworks más populares,
+                especialmente JavaScript y React. He tenido la oportunidad de
+                desarrollar dos aplicaciones web exitosas.
+              </p>
+              <p className="Content_text">
+                Me encanta trabajar en equipo y buscar soluciones creativas a
+                problemas complejos. En mi tiempo libre, me gusta mantenerme al
+                día con las últimas tendencias en tecnología y experimentar con
+                nuevas herramientas.
+              </p>
             </div>
             <div className="button_container">
               <a

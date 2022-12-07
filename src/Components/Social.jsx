@@ -1,6 +1,4 @@
 import React from "react";
-import dog from "../assets/dogs.jpg";
-import clothes from "../assets/eagle.jpg";
 import { AiOutlineLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 
 const Social = () => {
