@@ -47,9 +47,37 @@ body {
 }
 .Content_NameTyped::before {
   background: rgb(24, 24, 27);
-  animation: typewriter 4s steps(21) 1s forwards;
+  animation: typewriter 4s steps(23) 1s forwards;
 }
 .Content_NameTyped::after {
+  width: 0.125em;
+  background: white;
+  animation: typewriter 4s steps(23) 1s forwards, blink 750ms steps(23) infinite;
+}
+
+/*aqui*/
+.Content_NameTyped2 {
+  margin: 0;
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  position: relative;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  width: max-content;
+}
+.Content_NameTyped2::after,
+.Content_NameTyped2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.Content_NameTyped2::before {
+  background: rgb(24, 24, 27);
+  animation: typewriter 4s steps(21) 1s forwards;
+}
+.Content_NameTyped2::after {
   width: 0.125em;
   background: white;
   animation: typewriter 4s steps(21) 1s forwards, blink 750ms steps(21) infinite;
@@ -106,10 +134,16 @@ body {
 .Logo_Container:hover > div {
   color: rgb(86, 124, 247);
 }
-.NavBar_letters > span:hover {
+.NavBar_letterss:hover {
   color: rgb(86, 124, 247);
 }
-
+.NavBar_letters > span > span {
+  text-decoration: underline;
+  color: rgb(255, 255, 128);
+}
+.NavBar_letters > span > span:hover {
+  color: rgb(86, 124, 247);
+}
 .Logo_Container {
   display: flex;
 }
@@ -283,4 +317,38 @@ a:hover > .ICON2TEXT {
   gap: 32px;
   justify-content: space-between;
   padding-top: 60px;
+}
+
+.buttonENG_ESP {
+  display: flex;
+  background-color: rgb(86, 124, 247);
+  color: white;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.buttonENG_ESP:hover {
+  background-color: white;
+  color: rgb(86, 124, 247);
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.displaynone {
+  display: none;
+}
+
+.unActiveButton {
+  text-decoration: none !important;
+}
+
+.buttonLANG {
+  display: flex;
+  width: 200px;
 }

@@ -6,22 +6,21 @@ const Content = () => {
     <div className="Content_Container">
       <div className="Content_content">
         <div>
-          <span className="Content_NameTyped">Hola, soy Luis Aguilar.</span>
+          <span className="Content_NameTyped2">Hi, i'm Luis Aguilar.</span>
           <div className="SubText">
             <div className="Content_Title">Full Stack Developer</div>
             <div className="Content_text">
               <p className="Content_text">
-                Soy un apasionado por la tecnología y el desarrollo de
-                aplicaciones web. He aprendido de manera autodidacta y en
-                colaboración con la comunidad sobre los lenguajes y frameworks
-                más populares, especialmente JavaScript y React. He tenido la
-                oportunidad de desarrollar dos aplicaciones web exitosas.
+                I am passionate about technology and web development. I have
+                learned self-taught and in collaboration with the community
+                about the most popular languages and frameworks, especially
+                JavaScript and React. I have had the opportunity to develop two
+                successful web applications.
               </p>
               <p className="Content_text">
-                Me encanta trabajar en equipo y buscar soluciones creativas a
-                problemas complejos. En mi tiempo libre, me gusta mantenerme al
-                día con las últimas tendencias en tecnología y experimentar con
-                nuevas herramientas.
+                I love working in teams and finding creative solutions to
+                complex problems. In my free time, I like to stay up to date
+                with the latest technology trends and experiment with new tools.
               </p>
             </div>
             <div className="button_container">
@@ -30,7 +29,7 @@ const Content = () => {
                 href={require("../assets/LUISAGUILARCV.pdf")}
                 download="Luis_Aguilar_CV"
               >
-                <div>Descargar CV</div>
+                <div>Download CV</div>
               </a>
             </div>
           </div>

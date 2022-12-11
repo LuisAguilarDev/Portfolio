@@ -18,17 +18,17 @@ const Project = () => {
           <div className="Project_cardtext">
             <p>Eagle Clothes</p>
             <p>
-              Desarrollé el proyecto siguiendo la metodología ágil SCRUM. Se
-              trata de una aplicación web de compra de ropa que permite al
-              usuario buscar y filtrar prendas, así como acceder a su panel de
-              usuario mediante un login creado por mí utilizando MongoDB y
-              Bcrypt.
+              I developed the project following the SCRUM agile methodology. It
+              is a web application to buy clothes that allows the user to search
+              and filter garments search and filter garments, as well as access
+              to their user panel through a login panel through a login created
+              by me using MongoDB and Bcrypt. Bcrypt.
             </p>
             <p>
-              Utilicé React, useReducer para el manejo de estados globales,
-              Material UI y SASS para el estilo, MongoDB, Express y Typescript.
-              También creé las rutas en el backend con Express y utilicé
-              Mongoose para filtrar los datos que recibe el frontend.
+              I used React, useReducer for global state handling, Material UI
+              and SASS for styling, MongoDB, Express and Typescript. I also
+              created the routes in the backend with Express and I used Mongoose
+              to filter the data received by the frontend.
             </p>
           </div>
         </div>
@@ -43,17 +43,17 @@ const Project = () => {
           <div className="Project_cardtext">
             <p>Dog Breeds</p>
             <p>
-              Fue mi primer proyecto con JavaScript, se trataba de una
-              aplicación web que permitía a los usuarios buscar razas de perros
-              por su nombre y filtrar por temperamento.
+              It was my first project with JavaScript, it was a web application
+              that allowed users to search for dog breeds. web application that
+              allowed users to search for dog breeds by name and filter by
+              temperament. by name and filter by temperament.
             </p>
             <p>
-              Utilicé Redux para el manejo de estados globales y CSS puro para
-              el estilo.
+              I used Redux for global state handling and pure CSS for styling.
             </p>
             <p>
-              En el backend, utilicé Express para crear las rutas y PostgreSQL y
-              Sequelize para filtrar los datos que se enviarían al frontend.
+              On the backend, I used Express to create the routes and PostgreSQL
+              and Sequelize to filter the data to be sent to the frontend.
             </p>
           </div>
         </div>
