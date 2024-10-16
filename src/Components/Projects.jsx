@@ -5,7 +5,6 @@ import costume from '../assets/costume-app.png';
 import Card from './Card';
 
 const Project = ({ lang }) => {
-  console.log('🚀 ~ Project ~ lang:', lang);
   const contentEsp = [
     {
       link: 'https://costume-app.vercel.app/',

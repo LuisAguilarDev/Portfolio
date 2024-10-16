@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiPostgresql,
   SiExpress,
+  SiMicrosoftsqlserver,
 } from 'react-icons/si';
 
 const Tech = () => {
@@ -21,9 +22,17 @@ const Tech = () => {
       <div className="Tech_icons">
         <div>
           <div className="ICON_CONTAINER">
-            <FaReact className="ICON" />
+            <div>
+              <FaReact className="ICON" />
+            </div>
           </div>
           <div className="Tech_text">React</div>
+        </div>
+        <div>
+          <div className="ICON_CONTAINER">
+            <FaAngular className="ICON" />
+          </div>
+          <div className="Tech_text">Angular</div>
         </div>
         <div>
           <div className="ICON_CONTAINER">
@@ -37,12 +46,7 @@ const Tech = () => {
           </div>
           <div className="Tech_text">CSS</div>
         </div>
-        <div>
-          <div className="ICON_CONTAINER">
-            <FaAngular className="ICON" />
-          </div>
-          <div className="Tech_text">Angular</div>
-        </div>
+
         <div>
           <div className="ICON_CONTAINER">
             <IoLogoJavascript className="ICON" />
@@ -78,6 +82,12 @@ const Tech = () => {
             <SiSequelize className="ICON" />
           </div>
           <div className="Tech_text">Sequelize</div>
+        </div>
+        <div>
+          <div className="ICON_CONTAINER">
+            <SiMicrosoftsqlserver className="ICON" />
+          </div>
+          <div className="Tech_text">SQL SERVER</div>
         </div>
         <div>
           <div className="ICON_CONTAINER">

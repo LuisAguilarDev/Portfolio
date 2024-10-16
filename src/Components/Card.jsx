@@ -12,16 +12,20 @@ export default function Card({
         <img className="Project_img" src={photo} alt="Not Found" />
       </a>
       <div className="Project_cardtext">
-        <p>{title}</p>
+        <p className="text-description">{title}</p>
         {description.map((item) => {
-          return <p key={item}>{item}</p>;
+          return (
+            <p className="text-description" key={item}>
+              {item}
+            </p>
+          );
         })}
-        <p>Enlaces - GitHub</p>
+        <p className="text-description">Enlaces - GitHub</p>
         <div className="container-enlaces">
           <div className="enlace">
             <span>-{'>'}</span>
             <a
-              className="enlace"
+              className="enlace text-description"
               target="_blank"
               rel="noopener noreferrer"
               href={`${urlfront}`}
@@ -32,7 +36,7 @@ export default function Card({
           <div>
             <span>-{'>'}</span>
             <a
-              className="enlace"
+              className="enlace text-description"
               target="_blank"
               rel="noopener noreferrer"
               href={`${urlback}`}
