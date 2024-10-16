@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const NavBar = (props) => {
+const NavBar = ({ lang, setLang }) => {
   const scroll = (text) => {
-    const id = "#";
+    const id = '#';
     const selector = id + text;
     const section = document.querySelector(selector);
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     return;
   };
 
@@ -19,27 +19,31 @@ const NavBar = (props) => {
         <div className="NavBar_letters">
           <span
             className="NavBar_letterss"
-            onClick={() => scroll("tech_skill")}
+            onClick={() => scroll('tech_skill')}
           >
             Tech Skills
           </span>
-          <span className="NavBar_letterss" onClick={() => scroll("Projects2")}>
+          <span className="NavBar_letterss" onClick={() => scroll('Projects2')}>
             Projects
           </span>
-          <span className="NavBar_letterss" onClick={() => scroll("Socials")}>
+          <span className="NavBar_letterss" onClick={() => scroll('Socials')}>
             Contact
           </span>
-          <span className={"buttonLANG"}>
+          <span className={'buttonLANG'}>
             <span
-              onClick={props.setTrue}
-              className={props.active ? "ActiveButton" : "unActiveButton"}
+              onClick={() => {
+                setLang('en');
+              }}
+              className={lang === 'en' ? 'ActiveButton' : 'unActiveButton'}
             >
               ENG
             </span>
             /
             <span
-              onClick={props.setFalse}
-              className={props.active ? "unActiveButton" : "ActiveButton"}
+              onClick={() => {
+                setLang('es');
+              }}
+              className={lang === 'es' ? 'ActiveButton' : 'unActiveButton'}
             >
               ESP
             </span>

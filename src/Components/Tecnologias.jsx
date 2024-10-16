@@ -1,7 +1,7 @@
-import React from "react";
-import { FaReact, FaCss3Alt } from "react-icons/fa";
-import { AiOutlineHtml5, AiOutlineGithub } from "react-icons/ai";
-import { IoLogoJavascript } from "react-icons/io";
+import React from 'react';
+import { FaReact, FaCss3Alt, FaAngular } from 'react-icons/fa';
+import { AiOutlineHtml5, AiOutlineGithub } from 'react-icons/ai';
+import { IoLogoJavascript } from 'react-icons/io';
 import {
   SiRedux,
   SiTypescript,
@@ -10,7 +10,7 @@ import {
   SiNodedotjs,
   SiPostgresql,
   SiExpress,
-} from "react-icons/si";
+} from 'react-icons/si';
 
 const Tech = () => {
   return (
@@ -36,6 +36,12 @@ const Tech = () => {
             <FaCss3Alt className="ICON" />
           </div>
           <div className="Tech_text">CSS</div>
+        </div>
+        <div>
+          <div className="ICON_CONTAINER">
+            <FaAngular className="ICON" />
+          </div>
+          <div className="Tech_text">Angular</div>
         </div>
         <div>
           <div className="ICON_CONTAINER">
