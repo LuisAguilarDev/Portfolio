@@ -297,7 +297,7 @@ a:hover > .ICON2TEXT {
 .DISPLAY_FLEX {
   display: flex;
   gap: 32px;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 60px;
 }
 
