@@ -1,5 +1,5 @@
-import React from "react";
-import { AiOutlineLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import React from 'react';
+import { AiOutlineLinkedin, AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 
 const Social = () => {
   return (
@@ -13,8 +13,6 @@ const Social = () => {
             rel="noopener noreferrer"
           >
             <AiOutlineMail className="ICON2" />
-
-            <div className="ICON2TEXT">luisgerardo900@gmail.com</div>
           </a>
         </div>
         <div>
@@ -24,7 +22,6 @@ const Social = () => {
             rel="noopener noreferrer"
           >
             <AiOutlineLinkedin className="ICON2" />
-            <div className="ICON2TEXT">linkedin.com/in/luisgaguilarg</div>
           </a>
         </div>
         <div>
@@ -34,7 +31,6 @@ const Social = () => {
             rel="noopener noreferrer"
           >
             <AiFillGithub className="ICON2" />
-            <div className="ICON2TEXT">github.com/LuisAguilarDev</div>
           </a>
         </div>
       </div>
