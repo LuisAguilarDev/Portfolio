@@ -395,6 +395,60 @@ a:hover {
   height: 100%;
   background-color: #0b486b;
 }
+@media (max-width: 1024px) {
+  .NavBar_Split {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: unset;
+    margin-left: unset;
+    padding: 12px;
+  }
+  .Tech_icons {
+    width: 100%;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 0px;
+  }
+  .Project_Title {
+    padding: unset;
+  }
+  .Project_Container {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .Project_Card {
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    a {
+      padding: 12px;
+    }
+    a:hover {
+      img {
+        transform: unset;
+      }
+    }
+  }
+  .Project_img {
+    width: 100%;
+    width: 500px;
+  }
+  .Project_cardtext {
+    padding: 12px;
+    font-size: 12px;
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+    }
+  }
+}
 
 @media (max-width: 500px) {
   .NavBar_Split {
@@ -449,5 +503,32 @@ a:hover {
   .Project_Container {
     width: 100%;
     margin-bottom: 0px;
+  }
+  .Project_Card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+    a {
+      padding: 12px;
+    }
+    a:hover {
+      img {
+        transform: unset;
+      }
+    }
+  }
+  .Project_img {
+    width: 100%;
+  }
+  .Project_cardtext {
+    padding: 12px;
+    font-size: 12px;
+    p {
+      font-size: 12px;
+    }
+    a {
+      font-size: 12px;
+    }
   }
 }
