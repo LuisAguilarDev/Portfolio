@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Roboto&family=Source+Code+Pro&display=swap');
 
 body {
-  background-color: rgb(24, 24, 27);
+  background-color: #0b486b;
+}
+
+.Logo_Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Logo_L:hover {
+  border-color: white;
 }
 
 .Logo_L {
@@ -10,15 +20,11 @@ body {
   border-bottom: solid 2px;
   border-left: solid 2px;
   border-right: solid 2px;
-  border-color: rgb(86, 124, 247);
+  border-color: #3b8686;
   padding-left: 2px;
   padding-right: 2px;
   margin-bottom: 0;
   color: white;
-}
-
-.Logo_Container:hover > .Logo_L {
-  border-color: white;
 }
 
 .Logo_A {
@@ -46,7 +52,7 @@ body {
   left: 0;
 }
 .Content_NameTyped::before {
-  background: rgb(24, 24, 27);
+  background: #0b486b;
   animation: typewriter 1s steps(23) 1s forwards;
 }
 .Content_NameTyped::after {
@@ -86,7 +92,9 @@ body {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgb(34, 34, 46);
+  background-color: #08344d;
+  padding: 0px;
+  height: 80px;
 }
 
 .NavBar_Split {
@@ -105,23 +113,22 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   gap: 16px;
+  cursor: pointer;
 }
-.Logo_Container:hover > div {
-  color: rgb(86, 124, 247);
-}
+
 .NavBar_letterss:hover {
-  color: rgb(86, 124, 247);
+  color: #3b8686;
 }
-.NavBar_letters > span > span {
+.NavBar_letters > span > span.ActiveButton {
   text-decoration: underline;
-  color: rgb(255, 255, 128);
+  color: #3b8686;
+  cursor: unset !important;
 }
-.NavBar_letters > span > span:hover {
-  color: rgb(86, 124, 247);
+.NavBar_letters > span > span:hover.unActiveButton {
+  color: #3b8686;
+  cursor: pointer;
 }
-.Logo_Container {
-  display: flex;
-}
+
 .Project {
   margin-top: 40px;
   width: 1080px;
@@ -163,6 +170,7 @@ body {
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  color: #cff09e;
 }
 
 .profilepic {
@@ -175,6 +183,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0px;
 }
 .Content_content > div {
   height: 400px;
@@ -257,7 +266,7 @@ p {
 
 .buttonCV {
   display: flex;
-  background-color: rgb(86, 124, 247);
+  background-color: #3b8686;
   color: white;
   height: 40px;
   padding-left: 16px;
@@ -270,7 +279,7 @@ p {
 
 .buttonCV:hover {
   background-color: white;
-  color: rgb(86, 124, 247);
+  color: #3b8686;
   height: 40px;
   padding-left: 16px;
   padding-right: 16px;
@@ -288,10 +297,14 @@ a {
   text-decoration: none;
 }
 a:hover > .ICON2 {
-  color: rgb(86, 124, 247);
+  color: #cff09e;
 }
 a:hover > .ICON2TEXT {
-  color: rgb(86, 124, 247);
+  color: #cff09e;
+}
+
+a:hover {
+  color: #cff09e;
 }
 
 .DISPLAY_FLEX {
@@ -302,7 +315,7 @@ a:hover > .ICON2TEXT {
 
 .buttonENG_ESP {
   display: flex;
-  background-color: rgb(86, 124, 247);
+  background-color: #3b8686;
   color: white;
   height: 40px;
   padding-left: 16px;
@@ -315,7 +328,7 @@ a:hover > .ICON2TEXT {
 
 .buttonENG_ESP:hover {
   background-color: white;
-  color: rgb(86, 124, 247);
+  color: #3b8686;
   height: 40px;
   padding-left: 16px;
   padding-right: 16px;
@@ -331,7 +344,6 @@ a:hover > .ICON2TEXT {
 
 .buttonLANG {
   display: flex;
-  width: 200px;
 }
 
 .enlace {
@@ -377,4 +389,65 @@ a:hover > .ICON2TEXT {
 }
 .text-description {
   font-size: 16px;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #0b486b;
+}
+
+@media (max-width: 500px) {
+  .NavBar_Split {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: unset;
+    margin-left: unset;
+  }
+  .NavBar_letters {
+    width: 100%;
+  }
+  .NavBar_Container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .Logo_L {
+    font-size: 16px;
+  }
+  .Logo_A {
+    font-size: 16px;
+  }
+  .NavBar_letters {
+    font-size: 12px;
+  }
+  .NavBar_Container {
+    height: 60px;
+  }
+  .Content_Container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .Content_content {
+    padding: 12px;
+    p {
+      font-size: 12px;
+    }
+  }
+  .Content_text {
+    height: auto;
+  }
+  .Tech_icons {
+    width: 100%;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(80px, auto);
+    margin-top: 0px;
+  }
+  .Project_Container {
+    width: 100%;
+    margin-bottom: 0px;
+  }
 }
