@@ -17,7 +17,11 @@ export default function Card({
   return (
     <div className="Project_Card">
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img className={`Project_img ${link ? "cursor-pointer" : "cursor-text"}`} src={photo} alt="Not Found" />
+        <img
+          className={`Project_img ${link ? 'cursor-pointer' : 'cursor-text'}`}
+          src={photo}
+          alt="Not Found"
+        />
       </a>
       <div className="Project_cardtext">
         <p className="text-description">{title}</p>
@@ -34,8 +38,7 @@ export default function Card({
         })}
         <div className="flex">
           <a
-            className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+            className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
@@ -47,8 +50,8 @@ export default function Card({
             Frontend
           </a>
           <a
-            className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+            className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border
+                rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
@@ -59,19 +62,21 @@ export default function Card({
             <FaGithub />
             Backend
           </a>
-          {link && <a
-            className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+          {link && (
+            <a
+              className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border
+                rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
-            target="_blank"
-            rel="noopener noreferrer"
-            href={`${link}`}
-          >
-            <FaLink />
-            Preview
-          </a>}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={`${link}`}
+            >
+              <FaLink />
+              Preview
+            </a>
+          )}
         </div>
       </div>
     </div>

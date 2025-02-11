@@ -3,8 +3,8 @@ import profilepic from '../assets/Foto_Perfil.jpg';
 import { FaFileDownload } from 'react-icons/fa';
 
 const Content = () => {
-    const { t } = useTranslation();
-  
+  const { t } = useTranslation();
+
   return (
     <div className="w-full p-2 md:p-36 flex flex-col items-center justify-center">
       <div className="flex flex-col w-full md:w-1/3">
@@ -24,20 +24,20 @@ const Content = () => {
               <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
                 <div className="inline-flex items-center justify-center w-full px-3 py-1 text-xs md:text-sm text-white rounded-full cursor-pointer bg-[#08344d] backdrop-blur-3xl whitespace-nowrap">
-                  {t("head.ready")}
+                  {t('head.ready')}
                 </div>
               </span>
             </div>
           </a>
         </div>
         <div>
-          <span className="Content_NameTyped">{t("head.hi")}</span>
+          <span className="Content_NameTyped">{t('head.hi')}</span>
           <div className="SubText">
             <div className="Content_text">
               <p className="Content_text text-xs md:text-base">
-                <span>{t("head.first")}</span>
+                <span>{t('head.first')}</span>
                 <span className="emoji">🇨🇴</span>
-                <span>{t("head.second")}</span>
+                <span>{t('head.second')}</span>
               </p>
             </div>
           </div>
@@ -47,8 +47,8 @@ const Content = () => {
               target="_blank"
               rel="noopener noreferrer"
               role="link"
-              className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+              className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border
+                rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
@@ -71,15 +71,15 @@ const Content = () => {
                 <path d="M15 18h6"></path>
                 <path d="M18 15l3 3l-3 3"></path>
               </svg>
-              {t("head.contact")}
+              {t('head.contact')}
             </a>
             <a
               href="https://linkedin.com/in/luisgerardoaguilar"
               target="_blank"
               rel="noopener noreferrer"
               role="link"
-              className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+              className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border
+                rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
@@ -111,14 +111,14 @@ const Content = () => {
               target="_blank"
               rel="noopener noreferrer"
               role="link"
-              className={`inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition border
-                border-gray-300 rounded-full bg-[#08344d] dark:border-gray-600 dark:text-white 
+              className={`inline-flex items-center justify-center gap-2 px-4 py-1 transition border
+                rounded-full bg-[#08344d] border-gray-600 text-white 
                  text-md hover:border-gray-300 
                  hover:text-[#3b8686] group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white
                   focus-visible:ring-offset-2 active:bg-black`}
             >
               <FaFileDownload />
-              {t("head.get_cv")}
+              {t('head.get_cv')}
             </a>
           </nav>
         </div>
