@@ -25,7 +25,7 @@ export default function Experience() {
                   </time>
                 </div>
               </div>
-              <div className="relative flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3">
+              <div className="relative flex flex-col gap-2 pb-4 text-white/90 md:col-span-3">
                 {t('work.brief_1')}
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Experience() {
                   </time>
                 </div>
               </div>
-              <div className="relative flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3">
+              <div className="relative flex flex-col gap-2 pb-4 text-white/90 md:col-span-3">
                 {t('work.brief_2')}
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function Experience() {
                   </time>
                 </div>
               </div>
-              <div className="relative flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3">
+              <div className="relative flex flex-col gap-2 pb-4 text-white/90 md:col-span-3">
                 {t('work.brief_3')}
               </div>
             </div>
