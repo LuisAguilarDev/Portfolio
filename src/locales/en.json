@@ -14,11 +14,12 @@
     "work.title": "Professional Experience",
     "work.name_1": "Prexto Financial Services",
     "work.brief_1": "Designed financial models to calculate ordinary and moratorium interest, optimized database performance using MongoDB aggregation pipelines, and improved microservices architecture. Integrated secure authentication mechanisms (JWT and OAuth2), configured CI/CD pipelines for automated deployments, and managed secure financial data storage with AWS S3.",
-    "work.month_1": "March",
+    "work.month_1": "March 2023 - Current",
     "work.brief_2": "Designed and implemented custom software solutions, optimizing legacy systems by modernizing codebases and implementing efficient stored procedures, achieving a 30% reduction in execution time. Developed APIs for seamless third-party integration and enhanced relational database performance, ensuring scalability, data integrity, and high availability.",
     "work.month_2": "January 2023 - March 2023",
     "work.brief_3": "Designed interactive dashboards and monthly performance reports by integrating financial and operational data. Automated data consolidation to generate financial statements and conducted variance analyses between budgets and actual performance, delivering actionable insights through advanced visualizations.",
     "work.month_3": "June 2021 - January 2023",
+    "projects.title": "Projects",
     "project.title1": "DisguiseMe - ONLINE",
     "project.link1": "https://costume-app.vercel.app/",
     "project.description1_1": "I developed an application that uses Cloudinary's image transformation services. The service will be available until 01/11/2024.",
@@ -38,7 +39,13 @@
     "project.description3_2": "I used Redux for global state management and pure CSS for styling.",
     "project.description3_3": "On the backend, I used Express to create the routes and PostgreSQL with Sequelize to filter the data sent to the frontend.",
     "project.description3_4": "Although it's deprecated, you can check the code on GitHub for the implementation.",
-      "project.urlback3":"https://github.com/LuisAguilarDev/DogBreeds/tree/main/api",
-    "project.urlfront3":"https://github.com/LuisAguilarDev/DogBreeds/tree/main/client"
+    "project.urlback3": "https://github.com/LuisAguilarDev/DogBreeds/tree/main/api",
+    "project.urlfront3": "https://github.com/LuisAguilarDev/DogBreeds/tree/main/client",
+    "about.title": "About me",
+    "about.content1": "My journey started in the world of economics and data analysis, where I honed my problem-solving skills and built financial models. This solid foundation in finance naturally led me to discover a passion for technology, where I now thrive in creating scalable, high-performance web solutions.",
+    "about.content2": "I specialize in JavaScript technologies like Angular, React, and Node.js, and have a deep understanding of MongoDB, SQL, and RESTful APIs. My financial background gives me a unique perspective when building applications especially in areas like fintech, data-driven decision-making, and performance optimization.",
+    "about.content3": "Some of my recent achievements include: Developing complex financial models for credit risk analysis and interest rate calculations using Node.js and MongoDB. Optimizing software performance by implementing microservices architecture that improved reliability and scalability.",
+    "about.content4": "Building secure authentication systems using OAuth2 and JWT to ensure data protection. I enjoy blending my analytical mindset with creativity to build meaningful solutions. Whether it's coding a robust backend service or designing a user-friendly frontend, I strive to deliver secure, scalable, and high-quality applications.",
+    "skills.title": "Tech Skills"
   }
 }

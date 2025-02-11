@@ -25,7 +25,7 @@ export default function Card({
         {description.map((item) => {
           return (
             <>
-              <p className="text-description" key={item}>
+              <p className="text-description w-[50ch]" key={item}>
                 {item}
               </p>{' '}
               <br />

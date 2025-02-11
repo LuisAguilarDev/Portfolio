@@ -47,7 +47,7 @@ const Project = () => {
 
   return (
     <section className="Project_Container" id="Projects2">
-      <h2 className="Project_Title">Projects</h2>
+      <h2 className="Project_Title">{t('projects.title')}</h2>
       {content.map(({ link, photo, title, description, urlback, urlfront }) => {
         return (
           <Card

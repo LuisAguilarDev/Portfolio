@@ -1,27 +1,23 @@
-// const aboutme = {
-  //   en: {
-  //     iam: 'Hi, I am Luis Aguilar.',
-  //     summary: [
-  //       `I specialize in Javascript using Angular,
-  //       React, and Node technologies, striving
-  //       for a comprehensive 360° perspective in
-  //       every project to deliver highperformance solutions. I have a proven
-  //       track record of contributing to large-scale
-  //       applications for diverse clients and
-  //       private organizations.`,
-  //       `Beyond technical
-  //       proficiency, I excel as a collaborative
-  //       leader, emphasizing transparent
-  //       communication and data-driven
-  //       decision-making to drive project success.`,
-  //     ],
-  //   },
-  //   es: {
-  //     iam: 'Hola, soy Luis Aguilar.',
-  //     summary: [
-  //       `Me especializo en Javascript utilizando tecnologías de Angular, React y Node, esforzándome por tener una perspectiva integral de 360° en cada proyecto para ofrecer soluciones de alto rendimiento. Tengo un historial comprobado de contribuciones a aplicaciones de gran escala para diversos clientes y organizaciones privadas.`,
-  //       `Más allá de la competencia técnica, sobresalgo como un líder colaborativo, enfatizando la comunicación transparente y la toma de decisiones basadas en datos para garantizar el éxito de los proyectos.`,
-  //     ],
-  //   },
-  // };
-  // console.log(aboutme);
+import { useTranslation } from 'react-i18next';
+import Section from './Section';
+
+export default function Aboutme() {
+  const { t } = useTranslation();
+  return (
+    <Section title={t('about.title')} id="about">
+      <div className="flex items-center justify-center">
+        <div className="flex flex-col w-[65ch] text-white">
+          <p>{t('about.content1')}</p>
+          <br />
+          <p>{t('about.content2')}</p>
+          <br />
+          <p>{t('about.content3')}</p>
+          <br />
+          <p>
+            <p>{t('about.content4')}</p>
+          </p>
+        </div>
+      </div>
+    </Section>
+  );
+}

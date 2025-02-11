@@ -5,14 +5,16 @@ import Tech from './components/Tecnologias';
 import Experience from './components/Experience';
 import { Suspense } from 'react';
 import Project from './components/Projects';
+import Aboutme from './components/Aboutme';
 function App() {
   return (
-    <Suspense fallback='loading'>
+    <Suspense fallback="loading">
       <NavBar />
       <Content />
       <Experience />
       <Tech />
-      <Project  />
+      <Project />
+      <Aboutme />
     </Suspense>
   );
 }

@@ -21,12 +21,12 @@ export default function Experience() {
                     Prexto Financial Services
                   </h4>
                   <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                    {t("work.month_1")} 2023 - Actual
+                    {t('work.month_1')}
                   </time>
                 </div>
               </div>
               <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-               {t("work.brief_1")}
+                {t('work.brief_1')}
               </div>
             </div>
           </li>
@@ -44,12 +44,12 @@ export default function Experience() {
                     Sistemas Infotec
                   </h4>
                   <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                    {t("work.month_2")}
+                    {t('work.month_2')}
                   </time>
                 </div>
               </div>
               <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-              {t("work.brief_2")}
+                {t('work.brief_2')}
               </div>
             </div>
           </li>
@@ -67,12 +67,12 @@ export default function Experience() {
                     DDB Colombia
                   </h4>
                   <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                  {t("work.month_3")}
+                    {t('work.month_3')}
                   </time>
                 </div>
               </div>
               <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-              {t("work.brief_3")}
+                {t('work.brief_3')}
               </div>
             </div>
           </li>
