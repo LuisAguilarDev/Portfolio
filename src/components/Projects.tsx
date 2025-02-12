@@ -8,41 +8,42 @@ const Project = () => {
   const { t } = useTranslation();
   const content = [
     {
-      link: t("project.link1"),
+      link: t('project.link1'),
       photo: costume,
-      title: t("project.title1"),
+      title: t('project.title1'),
       description: [
-        t("project.description1_1"),
-        t("project.description1_2"),
-        t("project.description1_3"),
+        t('project.description1_1'),
+        t('project.description1_2'),
+        t('project.description1_3'),
       ],
-      urlback:  t("project.urlback1"),
-      urlfront:  t("project.urlfront1"),
+      urlback: t('project.urlback1'),
+      urlfront: t('project.urlfront1'),
     },
     {
-      link: t("project.link2"),
+      link: t('project.link2'),
       photo: clothes,
-      title: t("project.title2"),
+      title: t('project.title2'),
       description: [
-        t("project.description2_1"),
-        t("project.description2_2"),
-        t("project.description2_3"),
+        t('project.description2_1'),
+        t('project.description2_2'),
+        t('project.description2_3'),
       ],
-      urlback:  t("project.urlback2"),
-      urlfront:  t("project.urlfront2"),
+      urlback: t('project.urlback2'),
+      urlfront: t('project.urlfront2'),
     },
-    {
-      photo: dog,
-      title: t("project.title3"),
-      description: [
-        t("project.description3_1"),
-        t("project.description3_2"),
-        t("project.description3_3"),
-        t("project.description3_4"),
-      ],
-      urlback:  t("project.urlback3"),
-      urlfront:  t("project.urlfront3"),
-    },
+    // vuelen alto perritos
+    // {
+    //   photo: dog,
+    //   title: t("project.title3"),
+    //   description: [
+    //     t("project.description3_1"),
+    //     t("project.description3_2"),
+    //     t("project.description3_3"),
+    //     t("project.description3_4"),
+    //   ],
+    //   urlback:  t("project.urlback3"),
+    //   urlfront:  t("project.urlfront3"),
+    // },
   ];
 
   return (
