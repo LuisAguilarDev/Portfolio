@@ -18,15 +18,9 @@ const NavBar = () => {
     <div className="NavBar_Container px-1 py-4">
       <div className="flex w-full items-center justify-center">
         <ul className="flex items-center justify-center NavBar_letters text-xs sm:text-sm md:text-xl text-center">
-          <li onClick={() => scroll('experience')}>
-            {t('nav.experience')}
-          </li>
-          <li onClick={() => scroll('tech_skill')}>
-            {t('nav.tech_skill')}
-          </li>
-          <li onClick={() => scroll('about')}>
-            {t('nav.about')}
-          </li>
+          <li onClick={() => scroll('experience')}>{t('nav.experience')}</li>
+          <li onClick={() => scroll('tech_skill')}>{t('nav.tech_skill')}</li>
+          <li onClick={() => scroll('about')}>{t('nav.about')}</li>
           <li
             onClick={() =>
               (window.location.href = 'mailto:luisgerardo900@gmail.com')
@@ -34,7 +28,10 @@ const NavBar = () => {
           >
             {t('nav.contact')}
           </li>
-          <select className="emoji bg-[#08344d] cursor-pointer" onChange={onChangeLang}>
+          <select
+            className="emoji bg-[#08344d] cursor-pointer"
+            onChange={onChangeLang}
+          >
             {LANGUAGES.map(
               ({
                 code,
@@ -45,7 +42,7 @@ const NavBar = () => {
                 label: string;
                 codepoints: number[];
               }) => (
-                <option key={label} value={code}>
+                <option className="emoji" key={label} value={code}>
                   {label} {String.fromCodePoint(...codepoints)}
                 </option>
               ),
