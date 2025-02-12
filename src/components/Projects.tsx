@@ -1,4 +1,3 @@
-import dog from '../assets/dogs.jpg';
 import clothes from '../assets/eagle.jpg';
 import costume from '../assets/costume-app.png';
 import Card from './Card';
