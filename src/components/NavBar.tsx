@@ -21,13 +21,6 @@ const NavBar = () => {
           <li onClick={() => scroll('experience')}>{t('nav.experience')}</li>
           <li onClick={() => scroll('tech_skill')}>{t('nav.tech_skill')}</li>
           <li onClick={() => scroll('about')}>{t('nav.about')}</li>
-          <li
-            onClick={() =>
-              (window.location.href = 'mailto:luisgerardo900@gmail.com')
-            }
-          >
-            {t('nav.contact')}
-          </li>
           <select
             className="emoji bg-[#08344d] cursor-pointer"
             onChange={onChangeLang}
